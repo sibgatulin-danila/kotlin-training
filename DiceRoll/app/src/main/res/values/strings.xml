@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dice Roll</string>
+    <string name="diceSide">2</string>
+    <string name="diceRollButton">Roll</string>
+    <string name="imageDice1Description">Dice 1</string>
+    <string name="imageDice2Description">Dice 2</string>
+    <string name="imageDice3Description">Dice 3</string>
+    <string name="imageDice4Description">Dice 4</string>
+    <string name="imageDice5Description">Dice 5</string>
+    <string name="imageDice6Description">Dice 6</string>
+</resources>
