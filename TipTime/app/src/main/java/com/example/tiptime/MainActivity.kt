@@ -20,13 +20,9 @@ class MainActivity : AppCompatActivity() {
 
     fun calculateTip() {
         val stringInTextField = binding.costOfService.text.toString()
-        val cost = stringInTextField.toDoubleOrNull()
-        if (cost == null) {
-            return
-        }
+        val cost = stringInTextField.toDoubleOrNull() ?: return
 
-        val selectedId = binding.tipOptions.checkedRadioButtonId
-        val tipPercentage = when (selectedId) {
+        val tipPercentage = when (binding.tipOptions.checkedRadioButtonId) {
             R.id.serviceQualityAwesome -> 0.20
             R.id.serviceQualityGood -> 0.18
             else -> 0.15
